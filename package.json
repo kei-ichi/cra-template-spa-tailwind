@@ -1,0 +1,35 @@
+{
+  "name": "cra-template-tailwind-jit",
+  "version": "0.0.1",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "create-react-app-v5",
+    "tailwind",
+    "tailwind-css",
+    "template"
+  ],
+  "description": "The base template for Create React App with Tailwind CSS",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kei-ichi/cra-template-tailwind-css.git",
+    "directory": "/"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "bugs": {
+    "url": "https://github.com/kei-ichi/cra-template-tailwind-css/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "homepage": "https://github.com/kei-ichi/cra-template-tailwind-css#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hue Vu Van"
+}
