@@ -1,23 +1,35 @@
 import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+    <div className="flex flex-col justify-center items-center w-screen h-screen">
+      <img
+        src={logo}
+        className="w-80 h-80 animate-[spin_5s_linear_infinite]"
+        alt="React.js Logo"
+      />
+
+      <p>React SPA template with Tailwind CSS</p>
+
+      <div className="flex justify-between items-center">
         <a
-          className="App-link"
-          href="https://reactjs.org"
+          href="https://reactjs.org/"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
+          className="m-5 px-10 py-2 border-2 border-cyan-400 rounded-sm hover:bg-cyan-400 hover:text-white transition"
         >
-          Learn React
+          React.js
         </a>
-      </header>
+
+        <a
+          href="https://tailwindcss.com/"
+          target="_blank"
+          rel="noreferrer"
+          className="m-5 px-10 py-2 border-2 border-cyan-400 rounded-sm hover:bg-cyan-400 hover:text-white transition"
+        >
+          Tailwind
+        </a>
+      </div>
     </div>
   );
 }
