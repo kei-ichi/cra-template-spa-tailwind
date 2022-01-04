@@ -1,8 +1,12 @@
 # cra-template-tailwind-css
 
-This is custom create-react-app template with latest version of Tailwind CSS.
+### Custom SPA template with TailwindCSS, included with:
 
-Install:
+- TailwindCSS
+- React Router v6
+- ...only and nothing more, then you can add whatever you need for your project.
+
+### How to Install:
 
 ```bash
 npx create-react-app --template tailwind-spa [your project name]

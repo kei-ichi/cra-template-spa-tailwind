@@ -5,7 +5,7 @@ function App() {
     <div className="flex flex-col justify-center items-center w-screen h-screen">
       <img
         src={logo}
-        className="w-80 h-80 animate-[spin_5s_linear_infinite]"
+        className="w-80 h-80 animate-[spin_10s_linear_infinite]"
         alt="React.js Logo"
       />
 
