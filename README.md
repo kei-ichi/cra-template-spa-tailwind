@@ -9,5 +9,5 @@
 ### How to Install:
 
 ```bash
-npx create-react-app --template tailwind-spa [your project name]
+npx create-react-app --template spa-tailwind [your project name]
 ```
