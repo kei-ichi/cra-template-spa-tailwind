@@ -1,10 +1,10 @@
 {
-  "name": "cra-template-tailwind-jit",
+  "name": "cra-template-tailwind-spa",
   "version": "0.0.2",
   "keywords": [
     "react",
     "create-react-app",
-    "tailwind",
+    "react-router",
     "tailwind-css",
     "template"
   ],
